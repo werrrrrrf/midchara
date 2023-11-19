@@ -256,11 +256,21 @@ header{
 }
 
 @media (max-width: 990px){
-    .name{
-        padding-top: 2px;
-        font-size: 14px;
+    body{
+        justify-items: center;
+        justify-content: center;
+        background-position: left;
+        height: 1250px;
     }
-    .description{
+    .name{
+        padding-top: 2px;  
+    }
+    .description span{
+        margin: 4px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .description br{
         margin: 4px;
         font-size: 12px;
         text-align: justify;
@@ -268,9 +278,7 @@ header{
     .logo{
         font-size: 20px;
     }
-    .slide-conteiner{
-        margin: 50px;
-    }
+
     #menu-icon{
         display: block;
     }
@@ -284,7 +292,7 @@ header{
         border: 2px solid rgba(255,255,255, .2);
         backdrop-filter: blur(20px);
         box-shadow: 0 0 10px rgba(0, 0, 0, .9);
-        color: blue;
+        color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -292,6 +300,7 @@ header{
         transition: all .55s ease;
     }
     .navlist a{
+        color: white;
         margin-left: 0;
         display: block;
         margin: 7px 0;
